@@ -19,12 +19,12 @@ const Home = () => {
         >
           ◯△▢
         </button>
-        <p>Click Here to reveal the Winner !!!</p>
+        <p>Click Here to reveal the Winner!!!</p>
       </div>
       <div
         className={`${
           visible ? "block" : "hidden"
-        }  flex flex-col space-y-2 justify-center items-center h-[70%] border-3 border-white p-0.5 bg-white`}
+        } w-[30%] flex flex-col space-y-2 justify-center items-center h-[80%] border-3 border-white p-0.5 bg-white`}
       >
         <div className="h-[30%] w-full flex bg-pink-700 text-white font-extrabold justify-center items-center text-8xl">
           001
