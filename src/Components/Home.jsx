@@ -7,7 +7,7 @@ const Home = () => {
     setVisible(!visible);
   };
   return (
-    <div className='flex justify-center items-center bg-[url("..\src\assets\squid-game-background-uj6jso2bl26egojp.jpg")] w-full h-[91vh] bg-cover overflow-hidden bg-no-repeat'>
+    <div className='flex justify-center items-center bg-[url("/assets/back.jpg")] w-full h-[91vh] bg-cover overflow-hidden bg-no-repeat'>
       <div
         className={`${
           visible ? "hidden" : "block"
@@ -30,14 +30,14 @@ const Home = () => {
           001
         </div>
         <div className="h-[30%] justify-center ">
-          <img src="..\src\assets\photo.jpg" alt="" className="w-[6rem]" />
+          <img src="/assets/photo.jpg" alt="" className="w-[6rem]" />
         </div>
         <div className="h-[40%] w-full bg-pink-700 p-3 space-y-2 text-2xl font-extrabold flex flex-col justify-center items-center text-white">
           <h1>Piyush Garg</h1>
           <p>20243201</p>
           <NavLink to="https://www.instagram.com/piyush_2101/?hl=en">
             <img
-              src="src/assets/instagram-icon.svg"
+              src="/assets/instagram-icon.svg "
               alt=""
               className="w-10 bg-white rounded-lg"
             />
