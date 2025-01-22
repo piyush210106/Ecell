@@ -43,7 +43,10 @@ const Navbar = () => {
       >
         LinkedIn
       </NavLink>
-      <button className={`w-6 sm:hidden`} onClick={handleClick}>
+      <button
+        className={`w-6 sm:hidden absolute right-6`}
+        onClick={handleClick}
+      >
         <img src="src/assets/menu.png" alt="" />
       </button>
 
