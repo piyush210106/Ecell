@@ -2,7 +2,7 @@ import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./Components/Home";
 import Navbar from "./Components/Navbar";
-import Grid from "./Components/grid";
+import Grid from "./Components/Grid";
 
 function App() {
   const router = createBrowserRouter([
